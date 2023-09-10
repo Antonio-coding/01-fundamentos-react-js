@@ -1,9 +1,10 @@
 import { Post } from "./Post"
-
-
+import { Header } from "./componets/Header"
+import './global.css'
 export function App() {
   return (
     <div>
+    <Header />
       <Post
         author="Thiago Neto"
         title="ReactJS - 10 conceitos básicos para iniciantes"
